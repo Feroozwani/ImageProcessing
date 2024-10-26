@@ -3,8 +3,8 @@ import { View, Alert, Platform } from 'react-native';
 import { launchCamera, launchImageLibrary } from 'react-native-image-picker';
 import axios from 'axios';
 import ExerciseData from '../components/ExerciseData';
-import ImagePreview from '../components/ImagePreview'
-import CameraGalleryButton from '../components/ImagePreview'
+import ImagePreview from '../components/ImagePreview';
+import CameraGalleryButton from '../components/CameraGalleryButton';
 import { baseUrl, token } from '../../env';
 
 const CameraExample = () => {
